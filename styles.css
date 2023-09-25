@@ -21,6 +21,11 @@ body {
     font-weight: bold;
 }
 
+.header-links a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 .section-one {
     flex-direction: row;
     justify-content: center;
@@ -49,10 +54,15 @@ body {
     flex-wrap: wrap;
 }
 
+.section-one button {
+    border: 2px solid #3882f6;
+}
+
 .section-two {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px 72px 100px 72px;
 }
 
 .section-two-header {
@@ -62,8 +72,84 @@ body {
     padding: 32px;
 }
 
+.section-two-content {
+    display: flex;
+    gap: 50px;
+}
+
+.info-box {
+    border-radius: 16px;
+    border: 4px solid #3882f6;
+    width: 150px;
+    height: 150px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 150px;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+
+.section-two-text {
+    color: #6b7280;
+}
+
 .section-three {
     background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 72px 144px 72px 144px;
+    gap: 20px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.speaker {
+    font-size: 24px;
+    font-weight: 700;
+    align-self: flex-end;
+    padding-right: 60px;
+}
+
+.section-four {
+    padding: 54px 72px 54px 72px;
+}
+
+.section-four-container {
+    border-radius: 8px;
+    background: #3882f6;
+    padding: 36px 108px 36px 108px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-four-container-left {
+    color: #F9FAF8;
+}
+
+.cta {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.section-four button {
+    border: 2px solid #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    background: #1F2937;
+    color: #F9FAF8;
+    padding: 54px;
+    justify-content: center;
 }
 
 img {
@@ -80,11 +166,6 @@ ul {
 
 }
 
-.header-links a {
-    text-decoration: none;
-    color: #E5E7EB;
-}
-
 button {
     cursor: pointer;
     font-size: 18px;
@@ -96,6 +177,3 @@ button {
     font-weight: 600;
 }
 
-/* .section-one.sign-up {
-    border: 1px solid #3882f6;
-} */
